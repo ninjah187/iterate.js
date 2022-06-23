@@ -1,5 +1,5 @@
 # iterate.js
-## Lazy-evaluated operations on `Iterable<T>`
+## Lazy operations on `Iterable<T>`
 
 This package is a set of utils functions for working with JavaScript iterators and `Iterable<T>`.
 
