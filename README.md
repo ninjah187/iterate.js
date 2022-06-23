@@ -1,4 +1,4 @@
-# iterate.js
+# @primacode/iterate
 ## Lazy operations on `Iterable<T>`
 
 This package is a set of utils functions for working with JavaScript iterators and `Iterable<T>`.
@@ -17,12 +17,12 @@ Inspired by wu.js, rxjs and LINQ.
 Install the library:
 
 ```
-npm install --save iterate.js
+npm install --save @primacode/iterate
 ```
 Import and you're good to go:
 
 ```js
-import { iterate, filter } from 'iterate.js';
+import { iterate, filter } from '@primacode/iterate';
 
 iterate([1, 2, 3])(filter(x => x < 3));
 ```
@@ -49,7 +49,7 @@ const result = [1, 2, 3]
 
 In this case, lazy evaluation means processing data on the fly and creating only single array at the end. It can be particularly useful when working with large data sets.
 
-iterate.js provides convenient API for doing this:
+@primacode/iterate provides convenient API for doing this:
 
 ```js
 const result = iterate([1, 2, 3])(
