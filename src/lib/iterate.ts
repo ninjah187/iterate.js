@@ -1,4 +1,6 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable functional/functional-parameters */
+
 import { Projection } from './projection';
 
 export function iterate<T>(iterable: Iterable<T>) {
