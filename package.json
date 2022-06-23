@@ -1,11 +1,11 @@
 {
-  "name": "iterate.js",
+  "name": "@primacode/iterate",
   "version": "1.0.0",
   "description": "Lazy operations on JS iterables.",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
-  "repository": "https://github.com/YOUR_GITHUB_USER_NAME/iterate.js",
+  "repository": "https://github.com/ninjah187/iterate.js",
   "license": "MIT",
   "keywords": [],
   "scripts": {
